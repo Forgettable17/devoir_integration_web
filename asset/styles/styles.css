@@ -1,0 +1,146 @@
+body{
+    background: #020617;
+    margin: 0px;
+    color: bisque;
+}
+
+.inligne-block{
+    display: flex;
+    display: inline-block;
+}
+
+.blanc{
+    color: white;
+}
+
+header div h1{
+    font-weight: bold;
+    font-size: medium;
+}
+.orange{
+    color: orange;
+}
+
+nav>ol{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+header{
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.p100{
+    margin: 0px 100px;
+}
+
+button{
+    background-color: orange;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bgcolor{
+    background: #111827;
+}
+
+.block{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parent{
+    border: 7px solid #EAB308;
+    border-radius: 24px;
+    margin-top: 70px;
+    width: fit-content;
+}
+
+.enfant{
+    position: relative;
+    top: -20px;
+    right: -50px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+    justify-content: center;
+}
+
+.inligne{
+    display: flex;
+    justify-content: space-around;
+    justify-items: left;
+}
+
+.case{
+    width: 375px;
+    border-radius: 10px;
+    margin: 0px 100px;
+    background: #020617;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.centre{
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* *{
+    border: solid red;
+} */
+
+.pass{
+    display: flow-root;
+    width: 50%;
+}
+
+.bgcolor1{
+    background: #191D28;
+    justify-content: left;
+    height: 480px;
+    align-items: center;
+}
+
+.pass>img{
+    margin: 5px;
+}
+.flex{
+    display: flex;
+}
+
+.input1{
+    height: 40px;
+    background: #191D28;
+    color: white;
+    width: 235px;
+}
+
+.p-10{
+    padding-bottom: 10px;
+}
+
+.flex1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
